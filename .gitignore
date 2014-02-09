@@ -1,0 +1,36 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+dist
+log4j-custom.properties
+
+*.class
+
+# Package Files #
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+*.so
+.classpath
+.project
+.settings/
+.gradle/
+.idea/
+build/
+bin/
+out/
+gen/
+project.properties
+local.properties
+android/
+android-2/
+resources/
+sample-data/
