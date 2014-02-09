@@ -32,6 +32,7 @@ public class TextGeneratorCLI extends JFrame {
 
     public static void main(String[] args) {
         if(args.length == 0) {
+            System.out.println("Generating sentences from default file: 'input.txt'");
             new TextGeneratorCLI(DEFAULT_INPUT, DEFAULT_NUM_SENTENCES, TextGenerator.DEFAULT_MAX_SENTENCE_LENGTH);
         } else if(args.length == 1) {
             new TextGeneratorCLI(args[0], DEFAULT_NUM_SENTENCES, TextGenerator.DEFAULT_MAX_SENTENCE_LENGTH);
